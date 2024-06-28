@@ -3,6 +3,5 @@
 exec { 'killmenow':
   command     => '/usr/bin/pkill killmenow',
   provider    => 'shell',
-  onlyif      => '/usr/bin/pgrep -x killmenow',
   refreshonly => true,
 }
