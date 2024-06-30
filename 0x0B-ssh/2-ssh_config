@@ -3,5 +3,6 @@
 
 Host *
 	User ubuntu
-  HostName 54.173.110.165
+  HostName 52.91.153.24
+  port 22
 	IdentityFile ~/.ssh/school
